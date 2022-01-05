@@ -58,10 +58,7 @@ body {
     color: var(--paragraph-color);
    }
 
-   .header-mail-current {
-       color: var(--accent-color);
-   }
-
+   
    .header-link:hover,
    .header-link:focus,
    .header-mail:hover,
@@ -115,8 +112,9 @@ body {
 
    .hero-btn:hover,
    .hero-btn:focus {
-   color: var(--accent-color);
+       color: var(--first-title-color);
    }
+
 
     .hero-item-title {    
     font-weight: 700;
@@ -226,7 +224,7 @@ color: rgba(255, 255, 255, 0.6);
    .footer-mail:focus,
    .footer-tel:hover,
    .footer-tel:focus {
-    color: var(--first-title-color);
+    color: var(--accent-color);
    }
 
   /* <!------MAIN2------> */
@@ -244,7 +242,8 @@ cursor: pointer;
 
  .menu-btn:hover,
  .menu-btn:focus {
-   color: var(--accent-color);
+   color: var(--first-title-color);
+   background-color: var(--accent-color);
    }
 
 .btn-current {
